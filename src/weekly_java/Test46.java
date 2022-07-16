@@ -48,6 +48,16 @@ public class Test46 {
 				System.out.println(i);
 				
 		}
+			//1~10까지 짝수의 합
+			 sum = 0;
+			for ( int i = 0; i < 11; i++) {
+				if ( i % 2 != 0) {
+					continue;
+				}
+				sum+=i;
+				
+			}
+			System.out.println(sum);
 	}
 
 }
