@@ -40,7 +40,7 @@ public class Test46 {
 					
 				}
 	*/	
-			for ( int i = 0; i < 11; i = i + 2) {
+			for (int i = 0; i < 11; i = i + 2) {
 				
 				if ( i == 0) {
 					continue;
@@ -50,7 +50,7 @@ public class Test46 {
 		}
 			//1~10까지 짝수의 합
 			 sum = 0;
-			for ( int i = 0; i < 11; i++) {
+			for (int i = 0; i < 11; i++) {
 				if ( i % 2 != 0) {
 					continue;
 				}
@@ -58,6 +58,15 @@ public class Test46 {
 				
 			}
 			System.out.println(sum);
+			
+			//1~10까지 3의 배수 출력
+			for (int i = 0; i <= 10; i ++) {
+				if ( i % 3 == 0) {
+					
+				System.out.println(i);
+				
+				}
+			}
 	}
 
 }
